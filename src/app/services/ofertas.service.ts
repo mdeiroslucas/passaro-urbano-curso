@@ -19,7 +19,10 @@ export class OfertasService {
   // }
   public getOfertas(): Observable<Array<Oferta>> {
     return this.http.get<Oferta[]>(this.apiRoot + '?destaque=true');
+  }
 
+  public getOfertasPorCategoria(categoria: string): Observable<Array<Oferta>> {
+    return this.http.get<Oferta[]>(this.apiRoot + "?categoria=" + categoria);
   }
   // public ofertas: Array<Oferta> = [
   //   {
