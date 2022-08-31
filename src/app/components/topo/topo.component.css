@@ -2,6 +2,10 @@
     background: #006ACB
 }
 
+.fixed-top {
+  background: white;
+}
+
 .nav-link {
     color: #C1E4FF
 }
@@ -20,5 +24,5 @@
 }
 
 .active {
-    color: #FFF 
+    color: #FFF
 }
