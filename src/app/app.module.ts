@@ -10,6 +10,7 @@ import { RodapeComponent } from './components/rodape/rodape.component';
 import { RestaurantesComponent } from './components/restaurantes/restaurantes.component';
 import { DiversaoComponent } from './components/diversao/diversao.component';
 import { RouterModule } from '@angular/router';
+import { OfertaComponent } from './components/oferta/oferta.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RouterModule } from '@angular/router';
     TopoComponent,
     RodapeComponent,
     RestaurantesComponent,
-    DiversaoComponent
+    DiversaoComponent,
+    OfertaComponent
   ],
   imports: [
     BrowserModule,
